@@ -1,6 +1,4 @@
 import React from 'react';
-import resume from '../images/resume.pdf';
-import portfolio from '../images/Cabdirahman_Ibrahim_Portfolio.pdf';
 import profilepic from '../images/myself.jpeg';
 import skillsImage from '../images/Tech-Stack.webp';
 import codeImage from '../images/Code.jpeg';
@@ -46,7 +44,12 @@ export default function About() {
         <p className="bio">
           Welcome to my professional portfolio. Here you'll find my resume, cover letter, academic achievements, professional accomplishments, and samples of my work. This portfolio reflects my skills, experience, and dedication to growth in the IT and networking field.
         </p>
-        <a href={portfolio} target="_blank" rel="noopener noreferrer" className="resume-link">
+        <a
+          href="/Cabdirahman_Ibrahim_Portfolio.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-link"
+        >
           📄 View My Career Portfolio PDF
         </a>
       </section>
@@ -56,7 +59,12 @@ export default function About() {
         <p className="bio">
           For a detailed overview of my qualifications and experience, feel free to download my resume.
         </p>
-        <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-link">
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-link"
+        >
           📄 Download My Resume PDF
         </a>
       </section>

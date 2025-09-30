@@ -1,0 +1,280 @@
+/* About Page */
+.about-page {
+  text-align: center;
+  padding: 6rem 2rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem auto 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.about-section {
+  margin-bottom: 3rem;
+  text-align: left;
+}
+.about-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+.bio {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+.resume-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 10px 20px;
+  background-color: #4ea8de;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.resume-link:hover {
+  background-color: #82cfff;
+}
+
+/* Project Page */
+.project-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: scale(1.03);
+}
+.project-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+.project-card p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.project-card a {
+  font-weight: bold;
+  color: #61dafb;
+}
+.project-card a:hover {
+  color: #ffffff;
+}
+
+/* Contact Page */
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.contact-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #005fa3;
+  margin-bottom: 0.5rem;
+}
+.contact-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fcf9f9;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+.contact-image-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contact-image {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #fdfdfd;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #a7a3a3;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+.contact-form textarea {
+  min-height: 120px;
+}
+.submit-button {
+  background-color: #005fa3;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit-button:hover {
+  background-color: #6386aa;
+}
+
+/* Social Links */
+.social-links {
+  text-align: center;
+  margin-top: 2rem;
+}
+.social-links h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #014372;
+}
+.social-icon {
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  color: #e7ecef;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.social-icon i {
+  margin-right: 0.5rem;
+}
+.social-icon:hover {
+  color: #7e7ee7;
+}
+
+/* Education Page */
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+}
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #005fa3;
+}
+.education-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.education-section {
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.education-section.alt {
+  background-color: #e8f0fe;
+}
+.education-photo {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.education-text h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+  color: #005fa3;
+}
+.education-text h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.education-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #000000;
+  margin-bottom: 1rem;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.4s ease forwards;
+}
+.read-more-btn,
+.pdf-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #005fa3;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, opacity 0.4s ease;
+  opacity: 0;
+  animation: fadeInUp 0.4s ease forwards;
+}
+.read-more-btn:hover,
+.pdf-link:hover {
+  background-color: #004080;
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #005fa3;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+.scroll-to-top:hover {
+  background-color: #004080;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
